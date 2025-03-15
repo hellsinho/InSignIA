@@ -2,6 +2,7 @@ import cv2
 import numpy as np
 import tensorflow as tf
 
+#interpretador do modelo
 interpreter = tf.lite.Interpreter(model_path="model_stable_0.2.tflite")
 interpreter.allocate_tensors()
 
